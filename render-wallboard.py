@@ -37,11 +37,11 @@ RealtimeTimeout = 5 # How long before in between polling the real-time API
 # Sane defaults for new wallboards in case specific settings aren't given
 #
 DefaultSettings = {
-    "AlertBackgroundColour": "red", 
-    "WarningBackgroundColour": "yellow", 
+    "AlertBackgroundColour": "crimson", 
+    "WarningBackgroundColour": "cyan", 
     "TextColour": "black", 
-    "Font": "sans-serif",
-    "BackgroundColour": "lightgrey"
+    "Font": "Helvetica",
+    "BackgroundColour": "lavender"
 }
 
 #
@@ -67,6 +67,8 @@ MetricUnitMapping = {
     "AGENTS_AVAILABLE": "COUNT",
     "AGENTS_ONLINE": "COUNT",
     "AGENTS_ON_CALL": "COUNT",
+    "AGENTS_LUNCH": "COUNT",
+    "AGENTS_SHORT_BREAK": "COUNT",
     "AGENTS_STAFFED": "COUNT",
     "AGENTS_AFTER_CONTACT_WORK": "COUNT",
     "AGENTS_NON_PRODUCTIVE": "COUNT",
